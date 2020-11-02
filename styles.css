@@ -183,3 +183,27 @@ header {
   letter-spacing: 0.5rem;
   margin-right: -0.5rem;
 }
+
+.seperator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 100%;
+  max-width: 8.4rem;
+  height: 0.25rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.line-right::before,
+.line-left::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0.6rem solid transparent;
+  border-right-color: #fff;
+}
