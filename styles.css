@@ -205,5 +205,14 @@ header {
   top: 50%;
   transform: translateY(-50%);
   border: 0.6rem solid transparent;
+}
+
+.line-right::before {
   border-right-color: #fff;
+  right: 0;
+}
+
+.line-left::before {
+  border-left-color: #fff;
+  left: 0;
 }
