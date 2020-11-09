@@ -532,4 +532,20 @@ footer {
   .padding-right {
     padding-right: 7rem;
   }
+
+  .footer-content {
+    max-width: 77.5rem
+    margin: auto;
+  }
+
+  .footer-content-about {
+    max-width: 51.3rem;
+    margin: 0 auto 5.4rem;
+  }
+
+  .footer-content-divider {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
