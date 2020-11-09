@@ -548,4 +548,15 @@ footer {
     justify-content: space-between;
   }
 
+  .social-media,
+  .newsletter-form {
+    width: 100%;
+    max-width: 27.3rem;
+    margin: 0 1rem;
+  }
+
+  .social-icons i {
+    opacity: 1;
+  }
+  
 }
