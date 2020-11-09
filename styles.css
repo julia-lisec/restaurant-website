@@ -235,6 +235,9 @@ header {
   font-size: 1.2rem;
   color: var(--secondary-font-color);
   margin: 0 1.6rem;
+  opacity: 0;
+  animation: spin 0.5s forwards;
+  animation-delay: 1.2s;
 }
 
 .single-animation {
@@ -608,6 +611,16 @@ footer {
   100% {
     opacity: 1;
     width: 100%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-360deg);
   }
 }
 
