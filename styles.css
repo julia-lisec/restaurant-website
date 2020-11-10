@@ -400,6 +400,7 @@ footer {
   color: #fff;
   font-size: 2rem;
   padding: 2rem;
+  animation: up 2s infinite;
 }
 
 .footer-content {
@@ -632,4 +633,16 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
+
+  @keyframes up {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
 }
